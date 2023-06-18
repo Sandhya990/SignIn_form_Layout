@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.left{
+    background-color: whitesmoke;
+    padding: 70px;
+}
+.right{
+    background-image: linear-gradient(to right, red,rgba(247, 7, 75, 0.925));
+    padding: 190px;
+    color: white;
+}
